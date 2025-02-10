@@ -1,0 +1,42 @@
+CarTest.java:40: error: cannot find symbol
+        Car originalCar = new Car("Tesla Model X", driver, engine);
+        ^
+  symbol:   class Car
+  location: class CarTest
+CarTest.java:40: error: cannot find symbol
+        Car originalCar = new Car("Tesla Model X", driver, engine);
+                              ^
+  symbol:   class Car
+  location: class CarTest
+CarTest.java:43: error: cannot find symbol
+        Car deepCopyCar = originalCar.copy(true); 
+        ^
+  symbol:   class Car
+  location: class CarTest
+CarTest.java:66: error: cannot find symbol
+        Engine engine = new Engine("V6");
+        ^
+  symbol:   class Engine
+  location: class CarTest
+CarTest.java:66: error: cannot find symbol
+        Engine engine = new Engine("V6");
+                            ^
+  symbol:   class Engine
+  location: class CarTest
+CarTest.java:67: error: cannot find symbol
+        Car originalCar = new Car("Tesla Model X", driver, engine);
+        ^
+  symbol:   class Car
+  location: class CarTest
+CarTest.java:67: error: cannot find symbol
+        Car originalCar = new Car("Tesla Model X", driver, engine);
+                              ^
+  symbol:   class Car
+  location: class CarTest
+CarTest.java:70: error: cannot find symbol
+        Car shallowCopyCar = originalCar.copy(false); 
+        ^
+  symbol:   class Car
+  location: class CarTest
+14 errors
+(base) huojunyu@macbookair Week5-CopyObject % 
